@@ -1,7 +1,7 @@
 def get_largest_word_reversed(words_file_name):
     """
     Reads a txt file with a word on each line, and prints the largest word and the largest word reversed
-    :param words_file_name:
+    :param words_file_name: String with txt file relative path
     """
 
     words_file = open(words_file_name, "r")
